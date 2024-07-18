@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* For the main body */
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit';
+    width: 100vw;
+    height: 100vh;
+}
+
+.content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* for the main container */
+.qr-container {
+    display: block;
+    margin: auto;
+    width: 320px;
+    height: 497px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+/* for the qr image and container */
+.qr-img-container {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.qr-img{
+    width: 288px;
+    height: 288px;
+    border-radius: 20px;
+    margin: 16px;
+}
+
+/* For the text box */
+.main-text {
+    width: 288px;
+    margin: auto;
+    text-align: center;
+}
+
+/* For the header text */
+.heading {
+    font-size: 22px;
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+/* For the paragraph text */
+.cta{
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
