@@ -53,13 +53,18 @@ body {
     font-size: 22px;
     color: hsl(218, 44%, 22%);
     font-weight: 700;
-    margin-bottom: 10px;
+    margin-bottom: 16px;
+    text-align: center;
 }
 
 /* For the paragraph text */
 .cta{
+    margin: auto;
+    text-align: center;
+    width: 256px;
     font-size: 15px;
     color: hsl(220, 15%, 55%);
+    margin-bottom: 40px;
 }
 
 .attribution { 
